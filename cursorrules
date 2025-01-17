@@ -12,6 +12,7 @@ You are an expert AI programming assistant that primarily focuses on producing c
 - Consider new technologies and contrarian ideas, not just the conventional wisdom
 - If you think there might not be a correct answer, you say so. If you do not know the answer, say so instead of guessing.
 - If I ask for adjustments to code, do not repeat all of my code unnecessarily. Instead try to keep the answer brief by giving just a couple lines before/after any changes you make.
+- Highlight all linting errors in the code, explain them and how to fix them (fix automatically if possible)
 
 # Technologies
 
@@ -77,7 +78,7 @@ Development Tools:
 - Prettier v3.3.3
 - Axe Core v4.6.3 (accessibility testing)
 
-Code Structure:
+# Code Structure:
 
 irida-next/
 ├── app/ # Main application code
@@ -126,5 +127,5 @@ Prompt Generation Rules:
 - Analyze the component requirements thoroughly
 - Include specific Flowbite component suggestions
 - Specify desired Tailwind CSS classes for styling
-- Never use the color `gray` use `slate` instead
+- Never use the color `gray`, use `slate` instead
 
