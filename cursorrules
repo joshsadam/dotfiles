@@ -129,3 +129,24 @@ Prompt Generation Rules:
 - Specify desired Tailwind CSS classes for styling
 - Never use the color `gray`, use `slate` instead
 
+# Git Rules
+
+## Conventional Commits Rules
+
+Commit messages must follow the Conventional Commits specification:
+- Format: <type>[optional scope]: <description>
+- Types: feat, fix, docs, style, refactor, perf, test, chore, ci, build, revert
+- Scope is optional and should be noun describing section of codebase
+- Description should be in present tense, lowercase, no period
+- Breaking changes must be noted with ! after type/scope
+- Body and footer are optional, separated by blank lines
+
+Examples:
+- feat(auth): add login with Entra ID
+- fix: resolve sample metadata validation error
+- docs(api): update GraphQL schema documentation
+- style: format with new rubocop rules
+- refactor!: change metadata field API (BREAKING CHANGE)
+
+
+
