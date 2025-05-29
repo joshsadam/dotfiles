@@ -1,12 +1,14 @@
 # .windsurfrules
+
 # Professional Engineering Standards for irida-next
 
 ## Core Principles
 
 - Write clear, readable, idiomatic code using:
+
   - Ruby on Rails v8.0.1 (Ruby v3.3.7)
   - Hotwire (Turbo Rails), Stimulus.js (latest)
-  - TailwindCSS v4.0, Flowbite v3.1.2, ViewComponent v3.21.0, Heroicon Rails v0.2.9
+  - TailwindCSS v4.0, Flowbite v3.1.2, ViewComponent v3.21.0, Rails Designer Icons
   - PostgreSQL, Active Storage, Logidze, Paranoia, FX, ActionCable Enhanced PostgreSQL Adapter
   - GraphQL, GraphiQL, Faraday v2.5, Jbuilder
   - Devise v4.9.4, OmniAuth (Entra ID, SAML), Action Policy
@@ -34,7 +36,7 @@
 - Pass all Axe Core accessibility checks.
 - Use semantic HTML5 elements and ARIA roles where appropriate.
 - Ensure keyboard navigation is complete and logical.
-- Maintain color contrast ratios (WCAG AA minimum).
+- Maintain color contrast ratios (WCAG AAA).
 - Use descriptive alt text and labels for all interactive elements.
 - Test with screen readers for critical flows.
 
@@ -116,7 +118,9 @@
 - Use TailwindCSS v4.0 utility classes; never use inline styles.
 - Never use `gray`—use `slate` instead.
 - Use Flowbite components for complex UI (modals, dropdowns, etc.).
-- Use Heroicon Rails for all icons (unless otherwise specified).
+- Use render_icons for all icons.
+  - This user Rails Designer Icons (https://github.com/rails-designer-icons/rails-designer-icons).
+  - Use phosphor icons where possible, but heroicons if need.
 - Always prefer ViewComponent for reusable UI.
 - Follow responsive and dark mode best practices.
 - Use relative positioning for icons/carets in inputs.
