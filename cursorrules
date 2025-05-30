@@ -1,5 +1,3 @@
-# .windsurfrules
-
 # Professional Engineering Standards for irida-next
 
 ## Core Principles
@@ -28,6 +26,29 @@
   - Use modern idioms and features; avoid deprecated patterns.
   - Highlight, explain, and fix all linting errors.
   - If uncertain, say so—never guess.
+
+Prompt Generation Rules:
+
+- Analyze the component requirements thoroughly
+- Include specific FlowBite component suggestions
+- Specify desired Tailwind CSS classes for styling
+- Include instructions for responsive design
+- Include accessibility considerations
+- Mention any required icons or assets
+- Suggest error handling and loading states
+- Include instructions for animations or transitions if needed
+- Specify any required API integrations or data fetching
+- Mention performance optimization techniques if applicable
+- Include instructions for testing the component
+- Suggest documentation requirements for the component
+
+General Component Creation Guidelines:
+
+- Prioritize reusability and modularity
+- Ensure consistent naming conventions
+- Follow StimulusJS best practices and patterns
+- Consider internationalization requirements
+- Ensure compatibility with different browsers and devices
 
 ---
 
@@ -147,8 +168,51 @@
 
 ---
 
+## Stimulus.js Standards
+
+- Organize controllers by feature/domain
+- Use lifecycle methods appropriately (initialize, connect, disconnect)
+- Follow single responsibility principle for controllers
+- Use data attributes consistently
+- Implement proper error handling
+- Follow Stimulus.js naming conventions
+
+---
+
+## Hotwire/Turbo Standards
+
+- Use Turbo Frames for partial page updates
+- Implement proper Turbo Stream security
+- Follow Turbo Drive navigation patterns
+- Use proper caching strategies
+- Implement proper error handling
+- Use proper loading states
+
+---
+
+## TailwindCSS Organization
+
+- Use @apply for component-specific styles
+- Follow proper class ordering
+- Use proper responsive breakpoints
+- Implement proper dark mode patterns
+- Use proper color system
+- Follow proper spacing scale
+
+---
+
+## Modern Rails Patterns
+
+- Use proper Active Record patterns
+- Follow proper Action Cable patterns
+- Use proper Active Storage patterns
+- Follow proper caching strategies
+- Use proper background job patterns
+- Follow proper API patterns
+
+---
+
 **Non-compliance with these rules is grounds for code review rejection.**
 
 ---
 
-# End of .windsurfrules
